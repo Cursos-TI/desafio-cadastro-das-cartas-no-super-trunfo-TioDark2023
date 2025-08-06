@@ -4,23 +4,26 @@ int main(){
 
     // Primeira carta 
     int carta=1;
-    int Populacao = 7056495;
+    int Populacao = 7.330483 ;
     int NumeroTuristicos= 86;
     char Estado='G';
     char Codigarta[10]="G01";
     char NomeCidade[20]="Goiais";
     float Areakm= 340.086;
     float Pib= 336.7;
-    
+    float pibper= Pib / Populacao;
+    float Denspo= Populacao / Areakm; 
       // Segunda carta 
     int carta2=2;
-    int Populacao2 = 3.833712;
+    int Populacao2= 3.833712;
     int NumeroTuristicos2= 45;
     char Estado2='E';
     char Codigocarta2[10]="E01";
     char NomeCidade2[20]="Espirito Santo";
     float Areakm2= 46.095;
-    float Pib2= 51.1; 
+    float Pib2= 51.1;
+    float pibper2= Pib2 / Populacao2;
+    float Denspo2= Populacao2 / Areakm2; 
 
 
 // Info da primeira carta. 
@@ -32,6 +35,8 @@ int main(){
    printf("Área:%.3f km2\n",Areakm); // quantidade da área. 
    printf("PIB:%.2f bilhoes de reais\n",Pib); // PIB 
    printf("Numero de Pontos Turísticos:%d\n",NumeroTuristicos); // quantidades de pontos turísticos. 
+   printf("Densidade Populacional:%.2f hab/km2\n", Denspo); // densidade populacional
+   printf("PIB per Capita:%.2f reais\n", pibper);  // pib percapta 
 
  
    printf ("\n");
@@ -42,9 +47,12 @@ int main(){
    printf("Código:%s\n",Codigocarta2); // código da carta. 
    printf("Nome Da Cidade:%s\n",NomeCidade2); // nome da cidade.  
    printf("População:%d\n",Populacao2); // quantidade da população.  
-   printf("Área:%f km2\n",Areakm2); // quantidade da área.
-   printf("PIB:%f bilhoes de reais\n",Pib2); // PIB 
+   printf("Área:%.2f km2\n",Areakm2); // quantidade da área.
+   printf("PIB:%.2f bilhoes de reais\n",Pib2); // PIB 
    printf("Numero De Ponts Turísticos:%d\n",NumeroTuristicos2); // quantidades de pontos turísticos.
+  printf("Densidade Populacional:%.2f hab/km2\n", Denspo2); // densidade populacional
+   printf("PIB per Capita:%.2f reais\n", pibper2);    // pib percapta 
+
 
    printf("\n");
 
