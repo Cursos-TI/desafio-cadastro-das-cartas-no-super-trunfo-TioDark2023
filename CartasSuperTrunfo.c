@@ -76,22 +76,6 @@ int main(){
    printf("\n");
    //fim do segundo cod 
 
-  //comparacao das cartas antiga  
-  //printf("comparacao entre cartas\n");
-  //printf("\n");
-  //printf("Se o Resultado der ( 0 ) A carta 1 Ganhou e Se Der ( 1 ) A Carta 2 Ganhou:\n");
-  // printf("\n");
- 
-   //printf("ppopulacao : %d\n", Populacao>Populacao2);
-   //printf("Areakm2 : %d\n", Areakm>Areakm2);
-   //printf("Pib : %d\n", Pib>Pib2);
-   //printf("Pontos Turisticos : %d\n", NumeroTuristicos>NumeroTuristicos2);
-   //printf("Densidade Populacional : %d\n", Denspo>Denspo2);
-   //printf("PIB per Capita : %d\n", pibper>pibper2);
-   //printf("Super Poder:%d\n",poder>poder2);
-
-    //printf("\n");
-
     printf("Comparacao das cartas\n");
 
     printf("\n");
